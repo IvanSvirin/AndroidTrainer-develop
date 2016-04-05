@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ef_yellow"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_normal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/black">
+
+                <TextView
+                    android:id="@+id/exercise_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/padding_big"
+                    android:paddingBottom="@dimen/padding_big"
+                    android:textAllCaps="true"
+                    android:textColor="@color/ef_yellow"
+                    android:textSize="@dimen/text_size_medium"
+                    />
+
+                <Button
+                    style="@style/Button.Yellow"
+                    android:id="@+id/exercise_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/watch_video"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ef_yellow"
+                android:gravity="center"
+                android:letterSpacing="@dimen/letter_spacing"
+                android:paddingBottom="@dimen/padding_normal"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_medium"
+                android:paddingTop="@dimen/padding_medium"
+                android:text="@string/exercise_about"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/exercise_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ef_yellow"
+                android:paddingBottom="@dimen/padding_normal"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_medium"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/ef_grey"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:letterSpacing="@dimen/letter_spacing"
+                    android:padding="@dimen/padding_normal"
+                    android:text="@string/program_efficiency"
+                    android:textAllCaps="true"
+                    android:textColor="@color/ef_yellow"
+                    />
+                <ru.extremefitness.fitness_trainer.view.EfficiencyChart
+                    android:id="@+id/exercise_efficiency"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:chartColor="@color/ef_yellow"
+                    app:lineColor="@color/ef_grey"
+                    android:padding="@dimen/padding_normal"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ef_yellow"
+                android:gravity="center"
+                android:letterSpacing="@dimen/letter_spacing"
+                android:paddingBottom="@dimen/padding_normal"
+                android:paddingTop="@dimen/padding_medium"
+                android:text="@string/algorithm"
+                android:textAllCaps="true"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/sets_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ef_yellow"
+                />
+
+            <Button
+                android:id="@+id/add_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addSet"
+                android:text="@string/add_set"
+                android:layout_marginLeft="@dimen/program_item_margin"
+                android:layout_marginRight="@dimen/program_item_margin"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        style="@style/Button.Round.Grey.Yellow"
+        android:layout_width="@dimen/round_button_size"
+        android:layout_height="@dimen/round_button_size"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="@dimen/round_button_margin"
+        android:layout_marginLeft="@dimen/round_button_margin"
+        android:text="#"
+        />
+
+    <Button
+        style="@style/Button.Round.Grey.Yellow"
+        android:layout_width="@dimen/round_button_size"
+        android:layout_height="@dimen/round_button_size"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/round_button_margin"
+        android:layout_marginRight="@dimen/round_button_margin"
+        android:text="^"
+        android:onClick="actionOk"
+        />
+</FrameLayout>

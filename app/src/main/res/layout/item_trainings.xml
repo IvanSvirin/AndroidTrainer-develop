@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/program_item_margin"
+              android:layout_marginLeft="@dimen/program_item_margin"
+              android:layout_marginRight="@dimen/program_item_margin"
+              android:background="@drawable/bordered_shape"
+              android:minHeight="@dimen/training_min_height"
+              android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/training_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_medium"
+        />
+
+    <TextView
+        android:id="@+id/training_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_medium"
+        />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_simple">#fff</color>
+    <color name="Transparent80">#80000000</color>
+    <color name="black1">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#FFEAFF00</color>
+    <color name="blue">#FF0004FF</color>
+    <color name="green">#FF00FF15</color>
+
+    <color name="ef_orange">#FFF5876C</color>
+    <color name="ef_yellow">#FFFEF687</color>
+    <color name="ef_blue">#FF91D8F6</color>
+    <color name="ef_lavender">#FFADA9C0</color>
+    <color name="ef_grey">#FF363435</color>
+    <color name="ef_grey_80">#CC363435</color>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/program_name"
+                style="@style/AppTheme.TextAppearance.Yellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_big"
+                android:paddingBottom="@dimen/padding_normal"
+                android:background="@android:color/black"
+                />
+
+            <TextView
+                android:id="@+id/training_day"
+                style="@style/AppTheme.TextAppearance.Yellow.Big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_medium"
+                android:background="@android:color/black"
+                />
+
+            <TextView
+                android:id="@+id/training_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padding_big"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="@dimen/padding_medium"
+                android:textColor="@color/ef_yellow"
+                android:background="@android:color/black"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/ef_grey"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_normal"
+                    android:text="@string/expected_efficiency"
+                    style="@style/AppTheme.TextAppearance.Yellow"
+                    />
+                <ru.extremefitness.fitness_trainer.view.EfficiencyChart
+                    android:id="@+id/training_efficiency"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/padding_normal"
+                    app:chartColor="@color/ef_yellow"
+                    app:lineColor="@color/ef_grey"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        style="@style/Button.Round.Yellow.Grey"
+        android:layout_width="@dimen/round_button_size"
+        android:layout_height="@dimen/round_button_size"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="@dimen/round_button_margin"
+        android:layout_marginLeft="@dimen/round_button_margin"
+        android:text="#"
+        />
+
+    <Button
+        style="@style/Button.Round.Yellow.Grey"
+        android:layout_width="@dimen/round_button_size"
+        android:layout_height="@dimen/round_button_size"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/round_button_margin"
+        android:layout_marginRight="@dimen/round_button_margin"
+        android:text="^"
+        />
+</FrameLayout>

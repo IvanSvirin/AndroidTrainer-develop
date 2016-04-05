@@ -1,0 +1,46 @@
+{
+  "name": "Название программы",
+  "progress": "0%",
+  "time": 120,
+  "about": "Описание программы.",
+  "program_efficiency": [
+    {
+      "body_part": {
+        "name": "Руки"
+      },
+      "efficiency": 0
+    },
+    {
+      "body_part": {
+        "name": "Ноги"
+      },
+      "efficiency": 0
+    },
+    {
+      "body_part": {
+        "name": "Грудь"
+      },
+      "efficiency": 0
+    },
+    {
+      "body_part": {
+        "name": "Пресс"
+      },
+      "efficiency": 0
+    },
+    {
+      "body_part": {
+        "name": "Спина"
+      },
+      "efficiency": 0
+    },
+    {
+      "body_part": {
+        "name": "Плечи"
+      },
+      "efficiency": 0
+    }
+  ],
+  "trainings": [
+  ]
+}

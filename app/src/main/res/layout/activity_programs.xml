@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ef_orange"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="@dimen/letter_spacing"
+            android:paddingBottom="@dimen/spacing_normal"
+            android:paddingTop="@dimen/spacing_medium"
+            android:text="@string/your_programs"
+            android:textAllCaps="true"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/program_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/Button.Round.Grey.Orange"
+        android:layout_width="@dimen/round_button_size"
+        android:layout_height="@dimen/round_button_size"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="@dimen/round_button_margin"
+        android:layout_marginLeft="@dimen/round_button_margin"
+        android:text="!"
+        />
+
+    <Button
+        style="@style/Button.Round.Grey.Orange"
+        android:layout_width="@dimen/round_button_size"
+        android:layout_height="@dimen/round_button_size"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/round_button_margin"
+        android:layout_marginRight="@dimen/round_button_margin"
+        android:onClick="addProgram"
+        android:text="+"
+        />
+</FrameLayout>

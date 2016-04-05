@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/SettingsAccountTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_account_settings" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemHint="@string/set_email"
+            custom:itemTitle="@string/post" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemHint="@string/set_password"
+            custom:itemTitle="@string/password_title" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/authorization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemTitle="@string/autorization_title" />
+
+        <TextView
+            style="@style/SettingsAccountTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_profile_settings" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:itemTitle="@string/first_name" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:itemTitle="@string/last_name" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemTitle="@string/gender"
+            custom:listType="withSpinner" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemTitle="@string/birthday" />
+
+        <TextView
+            style="@style/SettingsAccountTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_settings_user" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemHint="@string/set_weight"
+            custom:itemTitle="@string/weight" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:editable="false"
+            custom:itemHint="@string/set_height"
+            custom:itemTitle="@string/height" />
+
+        <ru.extremefitness.fitness_trainer.ui.widgets.SettingsListItem
+            android:id="@+id/pobf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:itemTitle="@string/percent" />
+
+    </LinearLayout>
+
+</ScrollView>

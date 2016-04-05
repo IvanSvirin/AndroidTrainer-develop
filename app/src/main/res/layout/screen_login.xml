@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ef_orange"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".LoginActivity"
+    >
+
+    <Button
+        android:id="@+id/login_vk"
+        style="@style/Button.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:text="@string/vk"
+        />
+
+    <Button
+        android:id="@+id/login_facebook"
+        style="@style/Button.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:text="@string/facebook"
+        />
+
+    <Button
+        android:id="@+id/login_twitter"
+        style="@style/Button.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:text="@string/twitter"
+        />
+
+    <Button
+        android:id="@+id/login_google"
+        style="@style/Button.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:text="@string/gplus"
+        />
+
+    <Button
+        android:id="@+id/login_extreme"
+        style="@style/Button.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:text="@string/extreme"
+        />
+
+    <Button
+        android:id="@+id/login_trainer"
+        style="@style/Button.Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_normal"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:text="@string/trainer_sign_in"
+        />
+
+</LinearLayout>

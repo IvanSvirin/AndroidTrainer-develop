@@ -1,0 +1,589 @@
+{
+  "programs": [
+    {
+      "name": "Sexy workout",
+      "progress": "64%",
+      "time": 120,
+      "about": "Автор программы - известный фитнес-инструктор Елена Качковская.",
+      "program_efficiency": [
+        {
+          "body_part": {
+            "name": "Руки"
+          },
+          "efficiency": 6
+        },
+        {
+          "body_part": {
+            "name": "Ноги"
+          },
+          "efficiency": 9
+        },
+        {
+          "body_part": {
+            "name": "Грудь"
+          },
+          "efficiency": 2
+        },
+        {
+          "body_part": {
+            "name": "Пресс"
+          },
+          "efficiency": 9
+        },
+        {
+          "body_part": {
+            "name": "Спина"
+          },
+          "efficiency": 3
+        },
+        {
+          "body_part": {
+            "name": "Плечи"
+          },
+          "efficiency": 5
+        }
+      ],
+      "trainings": [
+        {
+          "name": "День 1",
+          "desc": "Привет, суперкачок! Сегодня мы будем делать ад!",
+          "training_efficiency": [
+            {
+              "body_part": {
+                "name": "Руки"
+              },
+              "efficiency": 3
+            },
+            {
+              "body_part": {
+                "name": "Ноги"
+              },
+              "efficiency": 3
+            },
+            {
+              "body_part": {
+                "name": "Грудь"
+              },
+              "efficiency": 1
+            },
+            {
+              "body_part": {
+                "name": "Пресс"
+              },
+              "efficiency": 1
+            },
+            {
+              "body_part": {
+                "name": "Спина"
+              },
+              "efficiency": 3
+            },
+            {
+              "body_part": {
+                "name": "Плечи"
+              },
+              "efficiency": 1
+            }
+          ],
+          "exercises": [
+            {
+              "exercise": {
+                "name": "Римская скамья",
+                "info_about": "Римская скамья позволяет выполнять два одинаково эффективных варианта разгибания спины на скамье",
+                "exercise_efficiency": [
+                  {
+                    "body_part": {
+                      "name": "Руки"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Ноги"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Грудь"
+                    },
+                    "efficiency": 2
+                  },
+                  {
+                    "body_part": {
+                      "name": "Пресс"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Спина"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Плечи"
+                    },
+                    "efficiency": 2
+                  }
+                ]
+              },
+              "set": {
+                "weight": 15,
+                "repeat": 10,
+                "rest_time": 180
+              },
+              "set_repeat": 3
+            },
+            {
+              "exercise": {
+                "name": "Становая тяга",
+                "info_about": "Становая тяга - очень эффективное упражнение",
+                "exercise_efficiency": [
+                  {
+                    "body_part": {
+                      "name": "Руки"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Ноги"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Грудь"
+                    },
+                    "efficiency": 2
+                  },
+                  {
+                    "body_part": {
+                      "name": "Пресс"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Спина"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Плечи"
+                    },
+                    "efficiency": 2
+                  }
+                ]
+              },
+              "set": {
+                "weight": 15,
+                "repeat": 10,
+                "rest_time": 180
+              },
+              "set_repeat": 3
+            }
+          ]
+        },
+        {
+          "name": "День 2",
+          "training_efficiency": [],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Heavy and hell",
+      "progress": "*",
+      "time": 0,
+      "about": "Автор программы - известный фитнес-инструктор Елена Качковская.",
+      "program_efficiency": [
+        {
+          "body_part": {
+            "name": "Руки"
+          },
+          "efficiency": 6
+        },
+        {
+          "body_part": {
+            "name": "Ноги"
+          },
+          "efficiency": 9
+        },
+        {
+          "body_part": {
+            "name": "Грудь"
+          },
+          "efficiency": 2
+        },
+        {
+          "body_part": {
+            "name": "Пресс"
+          },
+          "efficiency": 9
+        },
+        {
+          "body_part": {
+            "name": "Спина"
+          },
+          "efficiency": 3
+        },
+        {
+          "body_part": {
+            "name": "Плечи"
+          },
+          "efficiency": 5
+        }
+      ],
+      "trainings": [
+        {
+          "name": "День 1",
+          "desc": "Привет, суперкачок! Сегодня мы будем делать ад!",
+          "training_efficiency": [
+            {
+              "body_part": {
+                "name": "Руки"
+              },
+              "efficiency": 6
+            },
+            {
+              "body_part": {
+                "name": "Ноги"
+              },
+              "efficiency": 9
+            },
+            {
+              "body_part": {
+                "name": "Грудь"
+              },
+              "efficiency": 1
+            },
+            {
+              "body_part": {
+                "name": "Пресс"
+              },
+              "efficiency": 1
+            },
+            {
+              "body_part": {
+                "name": "Спина"
+              },
+              "efficiency": 6
+            },
+            {
+              "body_part": {
+                "name": "Плечи"
+              },
+              "efficiency": 1
+            }
+          ],
+          "exercises": [
+            {
+              "exercise": {
+                "name": "Римская скамья",
+                "info_about": "Римская скамья позволяет выполнять два одинаково эффективных варианта разгибания спины на скамье",
+                "exercise_efficiency": [
+                  {
+                    "body_part": {
+                      "name": "Руки"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Ноги"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Грудь"
+                    },
+                    "efficiency": 2
+                  },
+                  {
+                    "body_part": {
+                      "name": "Пресс"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Спина"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Плечи"
+                    },
+                    "efficiency": 2
+                  }
+                ]
+              },
+              "set": {
+                "weight": 15,
+                "repeat": 10,
+                "rest_time": 180
+              },
+              "set_repeat": 3
+            },
+            {
+              "exercise": {
+                "name": "Становая тяга",
+                "info_about": "Становая тяга - очень эффективное упражнение",
+                "exercise_efficiency": [
+                  {
+                    "body_part": {
+                      "name": "Руки"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Ноги"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Грудь"
+                    },
+                    "efficiency": 2
+                  },
+                  {
+                    "body_part": {
+                      "name": "Пресс"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Спина"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Плечи"
+                    },
+                    "efficiency": 2
+                  }
+                ]
+              },
+              "set": {
+                "weight": 15,
+                "repeat": 10,
+                "rest_time": 180
+              },
+              "set_repeat": 3
+            }
+          ]
+        },
+        {
+          "name": "День 2",
+          "training_efficiency": [],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Чем я хуже Арни",
+      "progress": "4%",
+      "time": 200,
+      "about": "Автор программы - известный фитнес-инструктор Елена Качковская.",
+      "program_efficiency": [
+        {
+          "body_part": {
+            "name": "Руки"
+          },
+          "efficiency": 6
+        },
+        {
+          "body_part": {
+            "name": "Ноги"
+          },
+          "efficiency": 9
+        },
+        {
+          "body_part": {
+            "name": "Грудь"
+          },
+          "efficiency": 2
+        },
+        {
+          "body_part": {
+            "name": "Пресс"
+          },
+          "efficiency": 9
+        },
+        {
+          "body_part": {
+            "name": "Спина"
+          },
+          "efficiency": 3
+        },
+        {
+          "body_part": {
+            "name": "Плечи"
+          },
+          "efficiency": 5
+        }
+      ],
+      "trainings": [
+        {
+          "name": "День 1",
+          "desc": "Привет, суперкачок! Сегодня мы будем делать ад!",
+          "training_efficiency": [
+            {
+              "body_part": {
+                "name": "Руки"
+              },
+              "efficiency": 6
+            },
+            {
+              "body_part": {
+                "name": "Ноги"
+              },
+              "efficiency": 9
+            },
+            {
+              "body_part": {
+                "name": "Грудь"
+              },
+              "efficiency": 1
+            },
+            {
+              "body_part": {
+                "name": "Пресс"
+              },
+              "efficiency": 1
+            },
+            {
+              "body_part": {
+                "name": "Спина"
+              },
+              "efficiency": 6
+            },
+            {
+              "body_part": {
+                "name": "Плечи"
+              },
+              "efficiency": 1
+            }
+          ],
+          "exercises": [
+            {
+              "exercise": {
+                "name": "Римская скамья",
+                "info_about": "Римская скамья позволяет выполнять два одинаково эффективных варианта разгибания спины на скамье",
+                "exercise_efficiency": [
+                  {
+                    "body_part": {
+                      "name": "Руки"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Ноги"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Грудь"
+                    },
+                    "efficiency": 2
+                  },
+                  {
+                    "body_part": {
+                      "name": "Пресс"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Спина"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Плечи"
+                    },
+                    "efficiency": 2
+                  }
+                ]
+              },
+              "set": {
+                "weight": 15,
+                "repeat": 10,
+                "rest_time": 180
+              },
+              "set_repeat": 3
+            },
+            {
+              "exercise": {
+                "name": "Становая тяга",
+                "info_about": "Становая тяга - очень эффективное упражнение",
+                "exercise_efficiency": [
+                  {
+                    "body_part": {
+                      "name": "Руки"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Ноги"
+                    },
+                    "efficiency": 4
+                  },
+                  {
+                    "body_part": {
+                      "name": "Грудь"
+                    },
+                    "efficiency": 2
+                  },
+                  {
+                    "body_part": {
+                      "name": "Пресс"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Спина"
+                    },
+                    "efficiency": 9
+                  },
+                  {
+                    "body_part": {
+                      "name": "Плечи"
+                    },
+                    "efficiency": 2
+                  }
+                ]
+              },
+              "set": {
+                "weight": 15,
+                "repeat": 10,
+                "rest_time": 180
+              },
+              "set_repeat": 3
+            }
+          ]
+        },
+        {
+          "name": "День 2",
+          "training_efficiency": [],
+          "exercises": []
+        }
+      ]
+    }
+  ]
+}

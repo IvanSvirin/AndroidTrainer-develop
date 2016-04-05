@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:place="http://mapsapplication.com/placing"
+			  xmlns:snap="http://mapsapplication.com/snaping"
+			  android:id="@+id/root"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+			  android:orientation="vertical"
+			  place:pack="ru.extremefitness.fitness_trainer.ui.uitest">
+
+	<TextView
+		android:id="@+id/some_text_1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		snap:setText="field=setLabelText type=void params=CharSequence"
+		snap:setVisibility="field=setLabelVisibility type=void params=int"/>
+
+	<Button
+		android:id="@+id/makeVisible"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="make visible"
+		snap:setOnClickListener="field=makeVisibleOnClickListener type=void params=View.OnClickListener"/>
+	<Button
+		android:id="@+id/makeInvisible"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="make invisible"
+		snap:setOnClickListener="field=makeInvisibleOnClickListener type=void params=View.OnClickListener"/>
+
+</LinearLayout>

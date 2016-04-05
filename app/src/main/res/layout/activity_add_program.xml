@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ef_yellow"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_normal"
+        android:paddingTop="@dimen/padding_medium"
+        android:text="@string/choose_program"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        style="@style/Button.Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/program_item_margin"
+        android:layout_marginLeft="@dimen/program_item_margin"
+        android:layout_marginRight="@dimen/program_item_margin"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:onClick="openCatalog"
+        android:text="@string/program_catalog"
+        />
+
+    <Button
+        style="@style/Button.Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/program_item_margin"
+        android:layout_marginLeft="@dimen/program_item_margin"
+        android:layout_marginRight="@dimen/program_item_margin"
+        android:letterSpacing="@dimen/letter_spacing"
+        android:onClick="openMaker"
+        android:text="@string/program_maker"
+        />
+
+</LinearLayout>

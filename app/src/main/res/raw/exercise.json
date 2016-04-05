@@ -1,0 +1,42 @@
+{
+  "name": "Римская скамья",
+  "info_about": "Римская скамья позволяет выполнять два одинаково эффективных вариант разгибания спины на скамье",
+  "exercise_efficiency": [
+    {
+      "body_part": {
+        "name": "Руки"
+      },
+      "efficiency": 4
+    },
+    {
+      "body_part": {
+        "name": "Ноги"
+      },
+      "efficiency": 4
+    },
+    {
+      "body_part": {
+        "name": "Грудь"
+      },
+      "efficiency": 2
+    },
+    {
+      "body_part": {
+        "name": "Пресс"
+      },
+      "efficiency": 9
+    },
+    {
+      "body_part": {
+        "name": "Спина"
+      },
+      "efficiency": 9
+    },
+    {
+      "body_part": {
+        "name": "Плечи"
+      },
+      "efficiency": 2
+    }
+  ]
+}

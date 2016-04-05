@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="ru.extremefitness.fitness_trainer"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".ExtremeTrainerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity android:name=".activity.SplashActivity"/>
+        <activity android:name=".activity.SignInOrSignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TrainerSignInActivity"/>
+        <activity android:name=".activity.TrainerSignUpActivity"/>
+        <activity android:name=".activity.AboutActivity"/>
+        <activity android:name=".activity.ProgramsActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".activity.TestDbActivity"/>
+        <activity android:name=".activity.ProgramActivity"/>
+        <activity android:name=".activity.ExercisesActivity"/>
+        <activity android:name=".activity.AddProgramActivity"/>
+        <activity android:name=".activity.ProgramsCatalogActivity"/>
+        <activity android:name=".activity.ChooseExerciseActivity"/>
+        <activity android:name=".activity.ExerciseActivity"/>
+        <activity android:name=".activity.EfficiencyChartAcivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".activity.CircularProgressBarActivity">
+
+        </activity>
+        <activity android:name=".activity.TrainingActivity"/>
+        <activity
+            android:name=".activity.SignInActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name">
+            <intent-filter>
+
+                <!--<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />-->
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".ui.settings.ScreenSettingsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/title_settings"/>
+        <activity android:name=".activity.ExtremeLoginActivity"/>
+        <activity android:name=".ui.login.ScreenVkLoginActivity"/>
+        <activity android:name=".ui.login.ScreenGooglePlusLoginActivity"/>
+        <activity android:name=".ui.login.ScreenTrainerLoginActivity"/>
+        <activity android:name=".ui.login.ScreenFacebookLoginActivity"/>
+        <activity android:name=".ui.login.ScreenTwiterLoginActivity"/>
+        <activity android:name=".ui.settings.ScreenChangeMailAndPassword"/>
+        <activity android:name=".ui.VideosActivity"/>
+        <activity
+            android:name=".ui.ExercisesActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale"/>
+        <activity
+            android:name=".ui.UnderExercisesActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale"/>
+
+        <!-- VK -->
+        <activity android:name="com.vk.sdk.VKOpenAuthActivity"/>
+        <activity
+            android:name="com.vk.sdk.VKServiceActivity"
+            android:label="ServiceActivity"
+            android:theme="@style/VK.Transparent"/>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <service android:name=".loader.LoaderService"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6a8d1fbcd817093d654df733390179732b8ebd11"/>
+    </application>
+
+</manifest>
